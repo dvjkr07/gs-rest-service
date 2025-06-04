@@ -23,5 +23,5 @@ jobs:
 
       - name: Deploy Application
         run: |
-          aws s3 cp build/libs/myapp.jar s3://my-deployment-bucket/
+          aws s3 cp build/libs/gs-rest-service.jar s3://springbootdeploymentbucket/
           # Add other deployment commands as needed
